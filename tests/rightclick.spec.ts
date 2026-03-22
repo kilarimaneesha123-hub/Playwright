@@ -5,7 +5,7 @@ test('keyboard operations', async ({ page }) => {
   // empty test (optional)
 });
 
-test.only('Right click and double click demo', async ({ page }) => {
+test('Right click and double click demo', async ({ page }) => {
 
   await page.goto('https://textbox.johnjago.com/');
 
